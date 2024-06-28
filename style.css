@@ -1,0 +1,44 @@
+.page-wrapper {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .game-active button {
+    display: none;
+  }
+  
+  .game-over .attempts-wrapper {
+    display: none;
+  }
+  
+  
+  
+  section {
+    height: 200px;
+    border: 1px solid blue;
+    margin-bottom: 1rem;
+  }
+  .hide {
+    display: none;
+  }
+  
+  .keyboard {
+    text-align: center;
+
+}
+
+    .guess-container{
+display: flex;
+gap: 10px;
+list-style: none;
+align-items:center;
+justify-content: center;
+    }
+
+  
+ .letter-space{
+    height: 30px;
+    width: 30px;
+    border-bottom: 2px solid;
+ }
