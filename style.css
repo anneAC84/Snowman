@@ -4,41 +4,97 @@
     text-align: center;
   }
   
-  .game-active button {
-    display: none;
-  }
-  
-  .game-over .attempts-wrapper {
-    display: none;
-  }
-  
-  
-  
   section {
     height: 200px;
-    border: 1px solid blue;
+    border: 1px solid rgb(214, 229, 243);
     margin-bottom: 1rem;
   }
+
   .hide {
     display: none;
   }
   
   .keyboard {
     text-align: center;
-
-}
-
-    .guess-container{
-display: flex;
-gap: 10px;
-list-style: none;
-align-items:center;
-justify-content: center;
+      
+ }
+    
+.guess-container  {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  align-items:right;
+  justify-content: center;
     }
 
-  
- .letter-space{
-    height: 30px;
-    width: 30px;
-    border-bottom: 2px solid;
+
+  .letter-space {
+      height: 30px;
+      width: 30px;
+      border-bottom: 2px solid;
  }
+
+  body {
+    background-color: rgb(214, 229, 243);
+ }
+
+button.key {
+    height: 40px;
+    width: 40px;
+    background-color: #898f8d;
+    border-radius: 12px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.8);
+    font-family:Grandstander;
+} 
+
+button.key:hover {
+  background-color: #6794aa;
+  color: black;
+}
+
+
+.start-game {
+  background-color: #1c87c9;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  border: none;
+  color: rgb(12, 5, 15);
+  cursor: pointer;
+  font-family:Grandstander;
+  font-size: 30px;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  animation:glowing 1300ms infinite;
+}
+@keyframes glowing {
+  0% {
+    background-color: #4b3cd3;
+    box-shadow: 0 0 5px black;
+  }
+  50% {
+    background-color: #3b97e2;
+    box-shadow: 0 0 20px rgb(19, 19, 15);
+  }
+  100% {
+    background-color: #52a5dd;
+    box-shadow: 0 0 5px #0f1101;
+  }
+}
+
+.attempts-wrapper {
+  font-size: 50px;
+  font-family:Grandstander;
+}
+
+h1 {
+  font-family:Grandstander;
+}
+

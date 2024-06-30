@@ -6,25 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snowman Game</title>
     <script defer src="./app.js"></script>
-
     <link rel="stylesheet" href="./style.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+
+    </style>
 </head>
 
 <body>
     <div class="page-wrapper">
         <h1>Snowman Game</h1>
+        
         <h2 class="message"></h2>
-
+  <button class="start-game">Start Game</button>
 
 
         <!-- ATTEMPTS TAKEN ----->
-        <section class="snowman gameover">
-            <img src="Images/Snowman-1.jpg" id="snowman-img" alt="My Image" width="200" height="200" left style="float: left;">
+        <section class="game-state">
+            <img src="Images/Snowman-1.jpg" id="snowman-img" alt="My Image" width="350" height="350" left style="float: left;">
 
             <div class="attempts-wrapper">
             </div>
 
-            <button class="start-game">Start Game</button>
+            
+
         </section>
     
 
@@ -33,14 +38,13 @@
     
         <section class="guess-container">
             
-            
-              
-        </section>
+      
+         </section>
     
     
 
     <section class="keyboard">
-
+        
 
         <button class="key">q</button>
         <button class="key">w</button>
