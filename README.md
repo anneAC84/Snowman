@@ -37,6 +37,6 @@ Images;
 
 Project planning link: <https://excalidraw.com/#json=cszQ6SkFcWqddHH7d2jxT,62Ei3A7Tg_mL7tsCn5vX9A>
 GitHub repo link: <https://github.com/anneAC84/Snowman.git>
-Deployed project link: <link>
+Deployed project link:
 
 
