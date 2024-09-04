@@ -32,6 +32,7 @@
       height: 30px;
       width: 30px;
       border-bottom: 2px solid;
+      transition: border-color 0.3s ease, transform 0.3s ease;
  }
 
   body {
@@ -98,3 +99,54 @@ h1 {
   font-family:Grandstander;
 }
 
+#snowman-img {
+  transition: opacity 0.5s ease;
+}
+
+.key {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.key.wrong {
+  background-color: #f44336;
+}
+
+.key.correct {
+  background-color: #4CAF50;
+}
+
+button.key:disabled {
+  opacity: 0.5;
+}
+
+button.show-hint {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.show-hint:hover {
+  background-color: #333;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.scoreboard div {
+  font-size: 1.5rem;
+}
+
+.hint {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #555;
+}
