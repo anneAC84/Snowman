@@ -1,6 +1,6 @@
 # Snowman Game
 
-![Snapshot of the Game](Snapshot_of_game.png)
+![Snapshot of the Game](Snapshot%20of%20game.png)
 
 ## Project Overview
 
